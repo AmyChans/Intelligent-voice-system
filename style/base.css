@@ -1,0 +1,314 @@
+@charset "utf-8";
+/* CSS Document */
+*{
+	margin:0;
+	padding:0;
+}
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,legend,button
+form,fieldset,input,textarea,p,blockquote,th,td {   
+　　padding: 0;   
+　　margin: 0;   
+}
+/* 酌情修改 */
+body {
+    background:#fff;color:#333;font-size:12px;font-family:"微软雅黑";;
+}
+
+/* 短引用的内容可取值：''或"" */
+q:before,q:after {content:”;}  
+
+/* 缩写，图片等无边框 */
+fieldset,img,abbr,acronym {border: 0 none;}
+abbr,acronym {font-variant: normal;}
+legend {color:#000;}
+
+/* 清除特殊标记的字体和字号 */
+address,caption,cite,code,dfn,em,strong,th,var {   
+　　font-weight: normal;   
+　　font-style: normal;   
+}
+
+/* 上下标 */
+sup {vertical-align: text-top;}
+sub {vertical-align: text-bottom;}
+
+/* 设置表格的边框被合并为一个单一的边框, 指定分隔边框模型中单元格边界之间的距离为0*/
+table {   
+　　border-collapse: collapse;   
+　　border-spacing: 0;   
+}   
+
+/* 表格标题及内容居左显示 */
+caption,th {text-align: left;}
+input,img,select {vertical-align:middle;}
+
+/* 清除列表样式 */
+ol,ul {list-style: none;}  
+
+/* 输入控件字体 */
+input,button,textarea,select,optgroup,option {
+    font-family:inherit;
+    font-size:inherit;
+    font-style:inherit;
+    font-weight:inherit;
+}
+
+/* 标题元素样式清除 */ 
+h1,h2,h3,h4,h5,h6 {   
+　　font-weight: normal;   
+　　font-size: 100%;   
+}   
+
+/* 链接样式，颜色可酌情修改 */
+del,ins,a {text-decoration:none;}
+a:link {color:#999;}
+a:visited {color:#999;}
+a:hover,a:active,a:focus {color:#999; text-decoration:none;} 
+
+/* 鼠标样式 */
+input[type="submit"] {cursor: pointer;}
+button {cursor: pointer;}
+input::-moz-focus-inner { border: 0; padding: 0;}
+
+.clear {clear:both;}
+
+/*清除浮动*/
+/*简洁版*/
+.clearfix:before, .clearfix:after {
+	content:"";
+	display:table;
+}
+.clearfix:after{
+	clear:both;
+	overflow:hidden;
+}
+.clearfix{
+    zoom:1;
+}
+
+
+/*----------------------样式初始化结束-------------------------*/
+
+
+
+
+/*--header样式--*/
+.fl{
+	float:left;	
+}
+.fr{
+	float:right;
+}
+.posA{
+	position:absolute;	
+}
+.posR{
+	position:relative;	
+}
+#header{
+	height:100px;
+    z-index:1000;
+	position:relative;
+	top:0;
+	left:0;
+}
+#header .bgImg{
+	background:url(../img/topImg.png);
+	background-repeat:repeat-x;	
+}
+#header .top{
+	width:1150px;
+	height:40px;
+	margin:0 auto;
+	line-height:40px;
+	color:#666;
+	font-size:14px;
+	overflow:hidden;
+}
+#header .nav{
+	width:1150px;
+	margin:0 auto;
+}
+#header .nav_logo{
+	padding-top:35px;
+}
+#header .nav_box{
+	padding-top:39px;
+	height:41px;	
+}
+#header .nav_box_word{
+	float:left;
+	font-size:16px;
+	color:#666;
+	padding-left:40px;
+	padding-right:40px;
+	height:40px;
+	cursor:pointer;
+}
+#header .nav_box_line{
+	float:left;
+	width:1px;
+	height:13px;
+	background:#999;
+	margin-top:5px;
+}
+#header .nav_box a{
+	color:#666;
+}
+#header .nav_box a:hover,.hoverFun:hover{
+	color:#3895e2;
+	cursor: pointer;
+}
+#header .box_introduction,#header .box_application{
+	width:144px;
+	border-top:3px solid #3895e2;
+	border-bottom:1px solid #ccc;
+	border-left:1px solid #ccc;
+	border-right:1px solid #ccc;
+	background:#FFF;
+	top:40px;
+	left:0;
+	text-align: center;
+    line-height: 45px;
+    font-size: 16px;
+	display:none;
+	z-index:999;
+}
+#header .box_introduction span,#header .box_application span{
+	display:block;
+}
+#header .spanLine{
+	width:120px;
+	height:1px;
+	background:#ccc;
+	margin:0 auto;	
+}
+
+
+/*--footer样式--*/
+#footer .footerBox{
+	width:1150px;
+	margin:0 auto;
+	height:222px;
+	overflow:hidden;
+}
+#footer .footer_left{
+	margin-top: 76px;
+    font-size: 14px;
+}
+#footer .footer_left li{
+	margin-bottom:10px;
+}
+#footer .footer_right{
+	margin-top:40px;
+}
+.erweima{
+	overflow:hidden;	
+}
+.erweima .erweima_word{
+	float:left;
+	font-size: 14px;
+    margin: 2px 14px 0 0;	
+}
+.erweima .erweima_img{
+	float:left;	
+}
+
+#header .nav .fr .nav_box li.hideBox1:hover .box_introduction{
+	display:block;
+}
+#header .nav .fr .nav_box li.hideBox2:hover .box_application{
+	display:block;
+}
+
+.commonhd{
+	width:100%;
+	height:100px;
+	background-color:#f4f4f4;
+	border-bottom:1px solid #e2e2e2;
+	margin-top:26px;
+}
+.com-in{
+	width:1100px;
+	height:78px;
+	margin:0 auto;
+	padding:22px 25px 0;
+}
+.inhd{
+	height:40px;
+}
+.com-in span.spanl,.com-in span.spanr{
+	display:block;
+	width:408px;
+	height:18px;
+	border-bottom:1px solid #5caaed;
+}
+/*.com-in span.spanl{
+	float:left;
+}
+.com-in span.spanr{
+	float:right;
+}*/
+.com-in span{
+	float:left;
+}
+.com-in span.spancenter{
+	display:inline-block;
+	width:280px;
+	height:40px;
+	text-align:center;
+	line-height:30px;
+	font-size:28px;
+	color:#5caaed;
+	font-weight:bold;
+}
+.com-in .introp{
+	width:1100px;
+	text-align:center;
+	color:#CCC;
+	margin:0 auto;
+}
+
+
+.fw{
+	font-weight:bold;
+	color:#369dec !important;	
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

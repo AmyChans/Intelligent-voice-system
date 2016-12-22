@@ -1,0 +1,276 @@
+@charset "utf-8";
+/* CSS Document */
+.bannerbox{
+	width:100%;
+	height:100%;
+	
+	background:#F93;
+	margin:0 auto;
+	position:relative;
+	z-index:20;
+	overflow:hidden;
+}
+/*.bannerbox ul{
+	margin:0 auto;
+}
+.bannerbox ul li{
+	cursor:pointer;
+}
+.bannerbox ol {
+	width:250px;
+	height:8px;
+	position:absolute;
+	bottom:20px;
+	left:50%;
+	margin-left:-125px;
+}
+.bannerbox ol li{
+	float:left;
+	width:56px;
+	height:8px;
+	background:#000;
+	opacity:0.4;
+	margin:0 3px;
+	cursor:pointer;
+}
+.bannerbox ol li:hover{
+	background:#ff9000;
+	opacity:1;
+}
+*/
+
+
+.topvebanner ul { margin: 0; padding: 0; }
+#myjQuery { BACKGROUND: #f1f1f1; OVERFLOW: hidden; WIDTH: 100%; POSITION: relative; }
+#myjQueryContent { OVERFLOW: hidden; WIDTH: 100%;  }
+#myjQueryContent DIV { POSITION: absolute; HEIGHT: 100%; top:0; left:0px; }
+#myjQueryContent .smask { Z-INDEX: -1; }
+#myjQueryContent IMG { WIDTH: 100%; border: 0; min-width:1024px; display:block}
+#myjQueryNav { DISPLAY: block; OVERFLOW: hidden; WIDTH: 100px; HEIGHT: 10px; position: absolute; top:90%; left:50%;margin-left:-50px;z-index: 5; }
+#myjQueryNav LI { DISPLAY: block; FLOAT: left; WIDTH: 20px; CURSOR: pointer; HEIGHT: 10px; TEXT-ALIGN:center; margin-left: 5px; background:#000; opacity:0.5;color: #fff; }
+#myjQueryNav .nbg { BACKGROUND: #666; }
+#myjQueryNav A { DISPLAY: block; Z-INDEX: 12; MARGIN: 0px auto; TEXT-TRANSFORM: uppercase; WIDTH: 45px; COLOR: #ffffff; LINE-HEIGHT: 22px; POSITION: relative; HEIGHT: 22px; z-index: 20; }
+#myjQueryNav .current { BACKGROUND: #ff9600; opacity:1; }
+#myjQueryNav .current A { COLOR: #fff; }
+#myjQuery #flow { background:#FF6; margin-top: -33px; WIDTH: 45px; HEIGHT: 22px; Z-INDEX: 22; left: 652px; POSITION: absolute; }
+
+
+
+.main{
+	width:100%;
+	height:540px;
+	margin:0 auto;
+	background:#f1f1f1;
+}
+.mainbox{
+	width:1150px;
+	height:480px;
+	margin:0 auto;
+	padding:40px 0 20px 0;
+}
+.mainbox h2{
+	text-align:center;
+	font-size:26px;
+	color:#666;
+	font-weight:normal;
+}
+.mainbox .m-content{
+	width:1150px;
+	margin:40px auto 0;
+	height:400px;
+}
+.m-content li{
+	width:236px;
+	height:346px;
+	border-top:4px solid #f7a837;
+	background-color:#FFF;
+	float:left;
+	margin-right:15px;
+	padding:50px 20px 0;
+	cursor:pointer;
+}
+.m-content li.contentte{
+	margin-right:0;
+}
+.m-content li .lihd{
+	width:86px;
+	height:86px;
+	margin:0 auto;
+	margin-bottom:22px;
+}
+.m-content li .lihd1{
+	background:url(../img/c1.png) no-repeat center center;
+}
+.m-content li .lihd2{
+	background:url(../img/c2.png) no-repeat center center;
+}
+.m-content li .lihd3{
+	background:url(../img/c3.png) no-repeat center center;
+}
+.m-content li .lihd4{
+	background:url(../img/c4.png) no-repeat center center;
+}
+.m-content li h4{
+	text-align:center;
+	font-size:18px;
+	color:#666;
+	font-weight:normal;
+	margin-bottom:30px;
+}
+.m-content li p{
+	text-align:center;
+	margin-bottom:6px;
+	color:#888;
+	font-size:14px;
+}
+.m-content li.cli1:hover .lihd1{
+	background:url(../img/c11.png) no-repeat center;
+}
+.m-content li.cli2:hover .lihd2{
+	background:url(../img/c22.png) no-repeat center;
+}
+.m-content li.cli3:hover .lihd3{
+	background:url(../img/c33.png) no-repeat center;
+}
+.m-content li.cli4:hover .lihd4{
+	background:url(../img/c44.png) no-repeat center;
+}
+.m-content li.cli1:hover h4{
+	color:#f7a837;
+}
+.m-content li.cli2:hover h4{
+	color:#2ec243;
+}
+.m-content li.cli3:hover h4{
+	color:#e35757;
+}
+.m-content li.cli4:hover h4{
+	color:#d65af1;
+}
+.promisebox{
+	width:100%;
+	height:375px;
+}
+.pbox{
+	width:1150px;
+	height:375px;
+	margin:0 auto;
+}
+.pbox-hd{
+	width:1150px;
+	height:130px;
+	text-align:center;
+	line-height:150px;
+	font-size:26px;
+	color:#666;
+}
+.pbox-bd{
+	width:1150px;
+	height:250px;
+	background:url(../img/promise.png) no-repeat center 0;
+}
+.company{
+	width:100%;
+	height:430px;
+	overflow:hidden;
+	margin:0 auto;
+	background:url(../img/company.png) no-repeat center;
+}
+.comin{
+	width:1150px;
+	height:430px;
+	margin:0 auto;
+}
+.comhd{
+	width:1150px;
+	height:100px;
+	line-height:100px;
+	text-align:center;
+	color:#FFF;
+	font-size:22px;
+}
+.combd{
+	width:1150px;
+	height:330px;
+}
+.combd li{
+	width:193px;
+	height:150px;
+	float:left;
+	margin:0 47px;
+}
+.combd li p{
+	width:193px;
+	height:50px;
+	line-height:50px;
+	text-align:center;
+	color:#FFF;
+	font-size:16px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

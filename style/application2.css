@@ -1,0 +1,162 @@
+@charset "utf-8";
+/* CSS Document */
+.intrbox{
+	width:100%;
+	height:500px;
+	background:url(../img/application/banners_application2.png) no-repeat center;
+}
+.analysisImg_1{
+	width:1069px;
+	height:321px;
+	background:url(../img/application/analysisImg_1.png) no-repeat;
+	margin:76px auto 60px auto;
+}
+.word_1{
+	padding-top: 22px;
+	padding-left: 398px;
+	font-size: 30px;	
+}
+.col_1{
+	color:#e29835;	
+}
+.col_2{
+	margin-left:46px;
+	color:#bdbf3a;
+}
+.word_2{
+	color:#666;
+	font-size:20px;
+	padding-top: 56px;
+	padding-left: 75px;	
+}
+.word_3{
+	color:#999;
+	font-size:20px;
+	padding-left: 75px;	
+}
+.word_4{
+	padding-left: 507px;
+	font-size: 30px;
+	padding-top: 115px;	
+}
+.col_3{
+	color:#2e677a;	
+}
+.col_4{
+	margin-left:114px;
+	color:#2f124a;
+}
+.bgcolor{
+	background:#f6f6f6;
+	padding-top:56px;
+	padding-bottom:70px;
+}
+.analysisImg_2{
+	background:url(../img/application/analysisImg_2.png) no-repeat;
+	width:1105px;
+	height:600px;
+	margin:0 auto;
+}
+.li_1{
+	font-size: 26px;
+	padding-left: 62px;	
+}
+.span_1{
+	color:#e94f45;
+}
+.span_2{
+	color:#2f124a;
+	margin-left:466px;	
+}
+.li_2{
+	margin-top: 153px;
+    font-size: 26px;	
+}
+.span_3{
+	color:#2e677a;
+}
+.span_4{
+	color:#e29837;
+	margin-left:571px;	
+}
+.li_3{
+	margin-top: 158px;
+    margin-left: 139px;
+    font-size: 26px;	
+}
+.span_5{
+	color:#bdbf3a;
+}
+.span_6{
+	color:#059ea3;
+	margin-left:470px;	
+}
+.li_4{
+	margin-left: 936px;
+    margin-top: 98px;
+    font-size: 20px;
+    color: #666;	
+}
+.li_5{
+	margin-left: 760px;
+    margin-top: 4px;
+    font-size: 20px;
+    color: #999;	
+}
+.li_6{
+	margin-left: 760px;
+    margin-top: 6px;
+    font-size: 20px;
+    color: #999;	
+}
+.analysisImg_3{
+	background:url(../img/application/analysisImg_3.png) no-repeat;
+	width:1069px;
+	height:340px;
+	margin:60px auto 155px auto;
+	overflow:hidden;
+}
+.analysisImg_3 ul{
+	margin-left:20px;
+	padding-top:56px;
+	float:left;	
+}
+.analysisImg_3 li{
+	width: 182px;
+    height: 252px;
+	text-align: center;
+    color: #999;
+    font-size: 16px;
+	float:left;	
+}
+.analysisImg_3 span{
+	display:block;
+    padding-bottom: 2px;		
+}
+.box_col_1{
+	color:#e44d44;
+    padding-top: 42px;
+    font-size: 20px	
+}
+.box_col_2{
+	color:#0699a0;
+    padding-top: 42px;
+    font-size: 20px	
+}
+.box_col_3{
+	color:#eaa13a;
+    padding-top: 42px;
+    font-size: 20px	
+}
+.box_col_4{
+	color:#2f124a;
+    padding-top: 42px;
+    font-size: 20px	
+}
+.rightWord{
+	float: left;
+    margin-top: 272px;
+    margin-left: 108px;
+    font-size: 22px;
+    color: #666;
+}

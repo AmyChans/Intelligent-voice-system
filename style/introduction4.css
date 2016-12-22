@@ -1,0 +1,176 @@
+@charset "utf-8";
+/* CSS Document */
+.intrbox{
+	width:100%;
+	height:500px;
+	background:url(../img/introduction/cloud.png) no-repeat center;
+}
+.cloud{
+	width:1150px;
+	min-height:800px;
+	margin:0 auto;
+}
+.txt{
+	width:990px;
+	height:120px;
+	padding:50px 80px 0;
+	font-size:18px;
+	font-weight:bold;
+	color:#999;
+}
+.txt span{
+	color:#369dec;
+}
+.tab{
+	width:870px;
+	min-height:790px;
+	margin:0 auto 50px;
+}
+.tab table{
+	border:1px solid #ddd;
+}
+.tab table th{
+	text-align:center;
+	font-size:18px;
+	font-weight:bold;
+	color:#C6C;
+	border:1px solid #ddd;
+}
+.tab table td{
+	padding-left:50px;
+	border:1px solid #ddd;
+}
+.tab table td a{
+	display:inline-block;
+	width:50px;
+	height:50px;
+	margin-right:25px;
+}
+.tab table td a.shuru1{
+	background:url(../img/introduction/cloud1.png) no-repeat -1px -1px;
+}
+.tab table td a.shuru2{
+	background:url(../img/introduction/cloud1.png) no-repeat -97px -1px;
+}
+.tab table td a.weibo1{
+	background:url(../img/introduction/cloud1.png) no-repeat -1px -79px;
+}
+.tab table td a.weibo2{
+	background:url(../img/introduction/cloud1.png) no-repeat -98px -78px;
+}
+.tab table td a.weibo3{
+	background:url(../img/introduction/cloud1.png) no-repeat -192px -81px;
+}
+.tab table td a.duanxin1{
+	background:url(../img/introduction/cloud1.png) no-repeat -4px -156px;
+}
+.tab table td a.duanxin2{
+	background:url(../img/introduction/cloud1.png) no-repeat -99px -158px;
+}
+.tab table td a.duanxin3{
+	background:url(../img/introduction/cloud1.png) no-repeat -196px -157px;
+}
+.tab table td a.duanxin4{
+	background:url(../img/introduction/cloud1.png) no-repeat -292px -155px;
+}
+.tab table td a.sousuo1{
+	background:url(../img/introduction/cloud1.png) no-repeat -4px -231px;
+}
+.tab table td a.sousuo2{
+	background:url(../img/introduction/cloud1.png) no-repeat -98px -232px;
+}
+.tab table td a.sousuo3{
+	background:url(../img/introduction/cloud1.png) no-repeat -198px -233px;
+}
+.tab table td a.sousuo4{
+	background:url(../img/introduction/cloud1.png) no-repeat -291px -231px;
+}
+.tab table td a.xuni1{
+	background:url(../img/introduction/cloud1.png) no-repeat -4px -310px;
+}
+.tab table td a.xuni2{
+	background:url(../img/introduction/cloud1.png) no-repeat -100px -309px;
+}
+.tab table td a.xuni3{
+	background:url(../img/introduction/cloud1.png) no-repeat -198px -309px;
+}
+.tab table td a.yule1{
+	background:url(../img/introduction/cloud1.png) no-repeat -5px -390px;
+}
+.tab table td a.yule2{
+	background:url(../img/introduction/cloud1.png) no-repeat -101px -389px;
+}
+.tab table td a.richeng1{
+	background:url(../img/introduction/cloud1.png) no-repeat -5px -470px;
+}
+.tab table td a.richeng2{
+	background:url(../img/introduction/cloud1.png) no-repeat -100px -471px;
+}
+.tab table td a.richeng3{
+	background:url(../img/introduction/cloud1.png) no-repeat -197px -472px;
+}
+.tab table td a.richeng4{
+	background:url(../img/introduction/cloud1.png) no-repeat -297px -472px;
+}
+.tab table td a.shenghuo1{
+	background:url(../img/introduction/cloud1.png) no-repeat -4px -547px;
+}
+.tab table td a.shenghuo2{
+	background:url(../img/introduction/cloud1.png) no-repeat -99px -550px;
+}
+.tab table td a.shenghuo3{
+	background:url(../img/introduction/cloud1.png) no-repeat -196px -550px;
+}
+.tab table td a.yuedu1{
+	background:url(../img/introduction/cloud1.png) no-repeat -4px -628px;
+}
+.tab table td a.yuedu2{
+	background:url(../img/introduction/cloud1.png) no-repeat -96px -630px;
+}
+.tab table td a.ditu1{
+	background:url(../img/introduction/cloud1.png) no-repeat -5px -707px;
+}
+.tab table td a.ditu2{
+	background:url(../img/introduction/cloud1.png) no-repeat -99px -705px;
+}
+.tab table td a.ditu3{
+	background:url(../img/introduction/cloud1.png) no-repeat -198px -708px;
+}
+.tab table td a.ditu4{
+	background:url(../img/introduction/cloud1.png) no-repeat -293px -708px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
